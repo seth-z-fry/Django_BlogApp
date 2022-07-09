@@ -1,7 +1,7 @@
 from turtle import title
 from django.db import models
-from djano.utils import timezone
-from djanto.contrib.auth.models import User
+from django.utils import timezone
+from django.contrib.auth.models import User
 
 # Create your models here.
 
