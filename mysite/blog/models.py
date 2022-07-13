@@ -14,7 +14,7 @@ class Post (models.Model):
         ('published', 'Published'),
     )
     objects = models.Manager() #Default Manager
-    publshed = PublishedManager() #Custom Manager
+    published = PublishedManager() #Custom Manager
 
     title = models.CharField(max_length=250)
     slug = models.SlugField(max_length=250, unique_for_date='publish')
